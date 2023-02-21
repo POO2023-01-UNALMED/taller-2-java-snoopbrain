@@ -23,8 +23,7 @@ public class Auto {
             if (asiento !=null){
                 if ((motor.registro != registro) || (asiento.registro != registro)){
                     return "Las piezas no son originales";
-        }  
-            
+        }   
         }
         }
         return "Auto original";

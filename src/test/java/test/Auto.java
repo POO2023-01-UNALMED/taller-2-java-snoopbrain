@@ -8,13 +8,13 @@ public class Auto {
     int registro;
     static int cantidadCreados;
     int getCantidadAsientos() {
-        int cantidad = 0;
+        int c = 0;
         for (Asiento a: this.asientos) {
             if (a != null) {
-                cantidad+=1;
+                c+=1;
             }
         }
-        return cantidad;
+        return c;
     }
 
     String verificarIntegridad() {

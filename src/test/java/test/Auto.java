@@ -10,7 +10,7 @@ public class Auto {
 
     public int getCantidadAsientos() {
         int cantidad = 0;
-        for (Asiento asiento : asientos) {
+        for (Asiento asiento : this.asientos) {
             if (asiento != null) {
                 cantidad++;
             }

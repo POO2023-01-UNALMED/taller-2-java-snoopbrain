@@ -7,7 +7,7 @@ public class Auto {
     Motor motor;
     int registro;
     static int cantidadCreados;
-    int CantidadAsientos() {
+    int cantidadAsientos() {
         int c = 0;
         for (Asiento num: this.asientos) {
             if (num != null) {
